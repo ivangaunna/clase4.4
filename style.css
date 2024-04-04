@@ -1,0 +1,41 @@
+.conteiner {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(17, 17, 17, 1) 0%,
+    rgba(34, 34, 34, 1) 25%,
+    rgba(68, 68, 68, 1) 50%,
+    rgba(102, 102, 102, 1) 75%,
+    rgba(238, 238, 238, 1) 100%
+    
+  );
+  width: 80vw;
+  text-align: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.caja{
+    border: 5px solid black;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    background-color: violet;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.caja:hover{
+    background-color: white;
+    color: orange;
+
+    transform: rotate(45deg);
+}
+.caja:active{
+    background-color: green;
+}
